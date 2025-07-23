@@ -4,7 +4,7 @@ namespace PluginFramework;
 
 public static class ImageEffectProcessor
 {
-    public static ImageEffectResult ApplyEffects(in string inputImage, out string outputImage, params IImageEffect[] effects)
+    public static ImageEffectResult ApplyEffects(string inputImage, out string outputImage, params IImageEffect[] effects)
     {
         outputImage = inputImage;
 
