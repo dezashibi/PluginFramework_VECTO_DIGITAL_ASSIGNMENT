@@ -1,4 +1,4 @@
-﻿using PluginFramework.ImageEffect;
+using PluginFramework.ImageEffect;
 
 namespace PluginFramework;
 
